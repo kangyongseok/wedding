@@ -40,18 +40,18 @@ function slideDurationTimeout(slideDuration) {
 var mousewheelEvent = isFirefox ? 'DOMMouseScroll' : 'wheel';
 window.addEventListener(mousewheelEvent, _.throttle(parallaxScroll, 60), false);
 function nextItem() {
-    var $previousSlide = $('.background').eq(currentSlideNumber - 1);
-    $previousSlide.css('transform', 'translate3d(0,-130vh,0)').find('.content-wrapper').css('transform', 'translateY(40vh)');
+    var previousSlide = $('.background').eq(currentSlideNumber - 1);
+    previousSlide.css('transform', 'translate3d(0,-130vh,0)').find('.content-wrapper').css('transform', 'translateY(40vh)');
     currentSlideTransition();
 }
 function previousItem() {
-    var $previousSlide = $('.background').eq(currentSlideNumber + 1);
-    $previousSlide.css('transform', 'translate3d(0,30vh,0)').find('.content-wrapper').css('transform', 'translateY(30vh)');
+    var previousSlide = $('.background').eq(currentSlideNumber + 1);
+    previousSlide.css('transform', 'translate3d(0,30vh,0)').find('.content-wrapper').css('transform', 'translateY(30vh)');
     currentSlideTransition();
 }
 function currentSlideTransition() {
-    var $currentSlide = $('.background').eq(currentSlideNumber);
-    $currentSlide.css('transform', 'translate3d(0,-15vh,0)').find('.content-wrapper').css('transform', 'translateY(15vh)');
+    var currentSlide = $('.background').eq(currentSlideNumber);
+    currentSlide.css('transform', 'translate3d(0,-15vh,0)').find('.content-wrapper').css('transform', 'translateY(15vh)');
     ;
  }
 
