@@ -50,7 +50,7 @@ html, body { overflow: hidden; }
   transition: all 1.4s cubic-bezier(0.22, 0.44, 0, 1);
 }
 
-.background:before {
+.main:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -140,6 +140,12 @@ html, body { overflow: hidden; }
   position: fixed;
   width: 308px;
   height: 100vh;
+}
+
+.god {
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
 }
 
 .name01 {
