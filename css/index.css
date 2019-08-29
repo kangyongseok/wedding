@@ -20,7 +20,7 @@ body {
 
 
 .main_img {
-  height: 88%;
+  height: 80%;
   background: url('../img/main.jpg') no-repeat 50% 0%;
   background-image: cover;
 }
@@ -50,6 +50,7 @@ body {
   align-items: center;
   padding:0 25px;
   margin-top: 15px;
+  height: 13%;
 }
 
 .name p {
