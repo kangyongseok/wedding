@@ -20,19 +20,28 @@ body {
 
 
 .main_img {
-  height: 88vh;
+  height: 88%;
   background: url('../img/main.jpg') no-repeat 50% 0%;
   background-image: cover;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10vh;
+  font-size: 5vw;
+  color: #c98d6e;
 }
 
 .main_img::after {
   content:'';
   position: absolute;
-  top: 15px;
-  bottom: 15px;
-  left: 15px;
-  right: 15px;
-  border: 1px solid #cccccc;
+  top: 2%;
+  bottom: 2%;
+  left: 2%;
+  right: 2%;
+  border: 1px solid #c98d6e;
 }
 
 .name {
