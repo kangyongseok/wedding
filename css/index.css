@@ -29,7 +29,7 @@ body {
   flex-direction: column;
 }
 
-.section div {
+.section01 div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,11 +37,11 @@ body {
 }
 
 
-.section div:nth-child(1) img {
+.section01 div:nth-child(1) img {
   width: 80%;
 }
 
-.section div:nth-child(1) p {
+.section01 div:nth-child(1) p {
   font-family: 'Song Myung', serif;
   font-style: italic;
   color: #cccccc;
@@ -49,7 +49,7 @@ body {
   margin-top: 2vh;
 }
 
-.section div:nth-child(1) .name {
+.section01 div:nth-child(1) .name {
   font-style: initial;
   color: #525156;
   font-size: 30px;
@@ -57,7 +57,7 @@ body {
   margin-top: 4vh;
 }
 
-.section div:nth-child(2) {
+.section01 div:nth-child(2) {
   width: 100%;
   height: 50vh;
   overflow: hidden;
@@ -66,13 +66,13 @@ body {
   justify-content: center;
 }
 
-.section div:nth-child(2) {
+.section01 div:nth-child(2) {
   background: url('../img/main.jpg') no-repeat 50% 50%;
   background-size: cover;
 }
 
 
-.section div:nth-child(3) p {
+.section01 div:nth-child(3) p {
   font-style: initial;
   color: #90c7cc;
   font-size: 40px;
@@ -81,16 +81,57 @@ body {
   margin-top: 3vh;
 }
 
-.section div:nth-child(3) p:last-child {
+.section01 div:nth-child(3) p:last-child {
   font-size: 15px;
   margin-top: 1.5vh;
 }
 
 
-.section div:nth-child(1) {
+.section01 div:nth-child(1) {
   margin-top: 3px;
 }
 
+.section02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #90c7cc;
+}
+
+.section02 h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 5vh;
+}
+
+.section02 .slide_area {
+  height: 50vh;
+  padding: 50px;
+  margin-top: 15vh;
+}
+
+.section02 .slide {
+  background: gray;
+}
+
+.section02 .slide img {
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide .fp-tableCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 /* @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+KR&display=swap');
 
 html, 
