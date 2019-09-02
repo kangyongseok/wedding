@@ -1,4 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Questrial|Song+Myung&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1;
+  font-size: 100%;
+}
+
+/* 
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Song Myung', serif;
+font-family: 'Questrial', sans-serif;
+*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+.section01 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section div:first-child {
+  margin-top: 3px;
+}
+
+.section div:first-child img {
+  width: 80%;
+}
+
+.section div:first-child p {
+  font-family: 'Song Myung', serif;
+  font-style: italic;
+  color: #cccccc;
+  font-size: 14px;
+  margin-top: 2vh;
+}
+
+.section div:first-child .name {
+  font-style: initial;
+  color: #525156;
+  font-size: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 4vh;
+}
+
+.section div:nth-child(2) {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.section div:nth-child(2) img {
+  width: 200%;
+}
+
+
+.section div:nth-child(3) p {
+  font-style: initial;
+  color: #90c7cc;
+  font-size: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  margin-top: 3vh;
+}
+
+.section div:nth-child(3) p:last-child {
+  font-size: 15px;
+  margin-top: 1.5vh;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+KR&display=swap');
 
 html, 
 body {
@@ -11,7 +101,7 @@ body {
   box-sizing: border-box;
   vertical-align: bottom;
   line-height: 1;
-  font-family: 'Song Myung', serif;
+  font-family:'Lato', 'Noto Sans KR', sans-serif;
 }
 
 .section01 {
@@ -23,14 +113,15 @@ body {
   height: 80%;
   background: url('../img/main.jpg') no-repeat 50% 0%;
   background-image: cover;
+  image-rendering: crisp-edges;
 }
 
 .title {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 10vh;
-  font-size: 5vw;
+  top: 10%;
+  font-size: 20px;
   color: #c98d6e;
 }
 
@@ -76,3 +167,8 @@ body {
 .fp-tableCell {
   vertical-align: top;
 }
+
+
+#fp-nav ul li a span {
+  color: black;
+} */
