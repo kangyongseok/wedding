@@ -36,15 +36,12 @@ body {
   text-align: center;
 }
 
-.section div:first-child {
-  margin-top: 3px;
-}
 
-.section div:first-child img {
+.section div:nth-child(1) img {
   width: 80%;
 }
 
-.section div:first-child p {
+.section div:nth-child(1) p {
   font-family: 'Song Myung', serif;
   font-style: italic;
   color: #cccccc;
@@ -52,7 +49,7 @@ body {
   margin-top: 2vh;
 }
 
-.section div:first-child .name {
+.section div:nth-child(1) .name {
   font-style: initial;
   color: #525156;
   font-size: 30px;
@@ -62,15 +59,16 @@ body {
 
 .section div:nth-child(2) {
   width: 100%;
-  height: 50%;
+  height: 50vh;
   overflow: hidden;
   margin-top: 5vh;
   display: flex;
   justify-content: center;
 }
 
-.section div:nth-child(2) img {
-  width: 200%;
+.section div:nth-child(2) {
+  background: url('../img/main.jpg') no-repeat 50% 50%;
+  background-size: cover;
 }
 
 
@@ -86,6 +84,11 @@ body {
 .section div:nth-child(3) p:last-child {
   font-size: 15px;
   margin-top: 1.5vh;
+}
+
+
+.section div:nth-child(1) {
+  margin-top: 3px;
 }
 
 /* @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+KR&display=swap');
