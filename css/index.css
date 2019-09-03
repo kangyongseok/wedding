@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Questrial|Song+Myung&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Gaegu&display=swap');
 
 * {
   margin: 0;
@@ -84,8 +84,10 @@ body {
 .section01 div:nth-child(3) p {
   font-style: initial;
   color: #90c7cc;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .section01 div:nth-child(3) p:last-child {
