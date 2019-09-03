@@ -23,9 +23,18 @@ body {
   font-size: 14px;
 }
 
+.section {
+  overflow: hidden;
+}
+
 .section01 {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+}
+
+.section01 .fp-tableCell {
+  display: flex;
   flex-direction: column;
 }
 
@@ -75,14 +84,14 @@ body {
 .section01 div:nth-child(3) p {
   font-style: initial;
   color: #90c7cc;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
-  margin-top: 3vh;
+  margin-top: 5vh;
 }
 
 .section01 div:nth-child(3) p:last-child {
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 1.5vh;
 }
 
@@ -126,7 +135,7 @@ body {
   width: 100%;
 }
 
-.fp-tableCell {
+.section02 .fp-tableCell {
   height: calc(100vh - 100px) !important;
 }
 
