@@ -139,6 +139,7 @@ body {
 .section02 span {
   font-family: 'Do Hyeon', sans-serif;
   color: white;
+  font-size: 20px;
 }
 
 .section02 p {
@@ -160,6 +161,14 @@ body {
   color:#90c7cc;
   width: 100%;
   z-index: 100;
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 400;
+}
+
+.section03 h2 span {
+  font-size: 15px;
+  color: #525156;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .slide_area {
@@ -179,7 +188,15 @@ body {
 }
 
 .section03 .fp-tableCell {
-  height: calc(100vh - 100px) !important;
+  height: calc(100vh - 150px) !important;
+}
+
+.fp-controlArrow {
+  display: none;
+}
+
+.fp-slidesNav {
+  text-align: center;
 }
 
 
