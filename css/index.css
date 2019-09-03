@@ -117,6 +117,32 @@ body {
 
 .section02 {
   background: #90c7cc;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+.section02 h2, .section02 p {
+  font-weight: 400;
+  font-family: 'Do Hyeon', sans-serif;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.section02 h2 {
+  color: white;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.section02 span {
+  font-family: 'Do Hyeon', sans-serif;
+  color: white;
+}
+
+.section02 p {
+  color: #d5eff1;
 }
 
 
