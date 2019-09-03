@@ -44,6 +44,19 @@ body {
   text-align: center;
 }
 
+.section01 h2 {
+  font-weight: 400;
+  color: #525156;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.section01 h2 span {
+  padding: 20px;
+  background: url('../img/title_bg.png') no-repeat 50% 50%;
+  color: white;
+}
+
 
 .section01 div:nth-child(1) img {
   width: 80%;
@@ -83,11 +96,12 @@ body {
 
 .section01 div:nth-child(3) p {
   font-style: initial;
-  color: #90c7cc;
-  font-size: 35px;
+  font-size: 20px;
   letter-spacing: -1px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Do Hyeon', sans-serif;
+  color: #525156;
+  margin-top: 0;
 }
 
 .section01 div:nth-child(3) p:last-child {
