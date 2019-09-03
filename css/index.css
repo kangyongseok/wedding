@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Questrial|Song+Myung&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Questrial|Song+Myung&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');
 
 * {
   margin: 0;
@@ -8,6 +9,7 @@
   box-sizing: border-box;
   line-height: 1;
   font-size: 100%;
+  font-family: 'Gaegu', cursive;
 }
 
 /* 
@@ -48,7 +50,6 @@ body {
 }
 
 .section01 div:nth-child(1) p {
-  font-family: 'Song Myung', serif;
   font-style: italic;
   color: #cccccc;
   font-size: 14px;
@@ -59,7 +60,6 @@ body {
   font-style: initial;
   color: #525156;
   font-size: 30px;
-  font-family: 'Noto Sans KR', sans-serif;
   margin-top: 4vh;
 }
 
@@ -85,7 +85,6 @@ body {
   font-style: initial;
   color: #90c7cc;
   font-size: 30px;
-  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
 }
 
@@ -100,15 +99,19 @@ body {
   margin-top: 3px;
 }
 
-
 .section02 {
+  background: #90c7cc;
+}
+
+
+.section03 {
   position: relative;
   display: flex;
   flex-direction: column;
   background: #f1f1f1;
 }
 
-.section02 h2 {
+.section03 h2 {
   text-align: center;
   font-size: 30px;
   margin-top: 20px;
@@ -133,7 +136,7 @@ body {
   width: 100%;
 }
 
-.section02 .fp-tableCell {
+.section03 .fp-tableCell {
   height: calc(100vh - 100px) !important;
 }
 
