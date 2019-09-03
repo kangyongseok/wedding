@@ -27,15 +27,12 @@ body {
   overflow: hidden;
 }
 
-.section01 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
+
 
 .section01 .fp-tableCell {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .section01 div {
@@ -70,7 +67,6 @@ body {
   width: 100%;
   height: 50vh;
   overflow: hidden;
-  margin-top: 5vh;
   display: flex;
   justify-content: center;
 }
@@ -80,6 +76,10 @@ body {
   background-size: cover;
 }
 
+.section01 div:nth-child(3) {
+  align-items: center;
+  justify-content: center;
+}
 
 .section01 div:nth-child(3) p {
   font-style: initial;
@@ -87,12 +87,12 @@ body {
   font-size: 30px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
-  margin-top: 5vh;
 }
 
 .section01 div:nth-child(3) p:last-child {
   font-size: 20px;
   margin-top: 1.5vh;
+  margin-bottom: 2vh;
 }
 
 
@@ -100,11 +100,9 @@ body {
   margin-top: 3px;
 }
 
-.section02 {
-
-}
 
 .section02 {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: #f1f1f1;
