@@ -302,11 +302,17 @@ body {
 
 .section05 {
   text-align: center;
+  background: #fdf2ee;
 }
 
 .section05 * {
   color: #525156;
   font-size: 20px;
+}
+
+.section05 img {
+  width: 100%;
+  margin-top: -20px;
 }
 
 .section05 p {
@@ -327,7 +333,7 @@ body {
 }
 
 .section05 .call div:last-child {
-  background: #ffc0cb;
+  background: #e951ab;
 } 
 
 .section05 .call div a {
