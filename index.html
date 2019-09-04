@@ -70,41 +70,34 @@
         <div class="slide"><img src="./img/img04.jpg" /></div>
       </div>
     </section>
-    <section class="section">
-      <div id="map" style="width:100%;height:350px;"></div>
-      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=35d8c6eef4dc97764a4e62f9f5b18aa7&libraries=services,clusterer,drawing"></script>
-      <script>
-        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-            mapOption = {
-                center: new kakao.maps.LatLng(37.5672795,126.8268652), // 지도의 중심좌표
-                level: 3, // 지도의 확대 레벨
-                mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
-            }; 
-        // 지도를 생성한다 
-        var map = new kakao.maps.Map(mapContainer, mapOption); 
-        // 마우스 드래그와 모바일 터치를 이용한 지도 이동을 막는다
-        map.setDraggable(false);		
-        // 마우스 휠과 모바일 터치를 이용한 지도 확대, 축소를 막는다
-        map.setZoomable(false);   
-        // 지도에 확대 축소 컨트롤을 생성한다
-        var zoomControl = new kakao.maps.ZoomControl();
-        // 지도의 우측에 확대 축소 컨트롤을 추가한다
-        map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
-        // 지도에 마커를 생성하고 표시한다
-        var marker = new kakao.maps.Marker({
-            position: new kakao.maps.LatLng(37.5672795,126.8268652), // 마커의 좌표
-            map: map // 마커를 표시할 지도 객체
-        });
-        // 마커 위에 표시할 인포윈도우를 생성한다
-        var infowindow = new kakao.maps.InfoWindow({
-              content : `<div style="padding:5px;text-align:center;" class="spot_info">
-                <b>보타닉파크웨딩</b><br/>
-                10월19일 토 11시30분
-          </div>` // 인포윈도우에 표시할 내용
-        });
-        // 인포윈도우를 지도에 표시한다
-        infowindow.open(map, marker);
-      </script>
+    <section class="section section04">
+      <h2>오시는 길</h2>
+      <div class="load_text">
+        <!--
+          * 카카오맵 - 약도서비스
+          * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+          * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+        -->
+        <!-- 1. 약도 노드 -->
+        <div id="daumRoughmapContainer1567601419009" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+        <!-- 2. 설치 스크립트 -->
+        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+        <!-- 3. 실행 스크립트 -->
+        <script charset="UTF-8">
+          new daum.roughmap.Lander({
+            "timestamp" : "1567601419009",
+            "key" : "uxet",
+            "mapWidth" : "360",
+            "mapHeight" : "200"
+          }).render();
+        </script>
+      </div>
+      <div class="call">
+        <div>신랑 강용석<a href="tel:+821090435233">전화하기</a></div>
+        <div>신부 김희정<a href="tel:+821063066207">전화하기</a></div>
+      </div>
     </section>
     <section class="section"></section>
   </div>
