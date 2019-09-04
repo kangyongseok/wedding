@@ -301,12 +301,11 @@ body {
 }
 
 .section05 {
-  background: #525156;
   text-align: center;
 }
 
 .section05 * {
-  color: white;
+  color: #525156;
   font-size: 20px;
 }
 
