@@ -280,6 +280,26 @@ body {
   margin-left: 5px;
 }
 
+.root_daum_roughmap .cont .section {
+  padding: 10px 0;
+}
+
+.section_subway, .section_busline {
+  display: flex;
+}
+
+.section_subway .title {
+  width: 100px;
+}
+
+.section_busline .title {
+  width: 70px;
+}
+
+.root_daum_roughmap .wrap_map {
+  height: 180px !important;
+}
+
 
 /* @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+KR&display=swap');
 
