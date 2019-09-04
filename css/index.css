@@ -223,6 +223,8 @@ body {
 .section04 .fp-tableCell {
   position: relative;
   height: 100% !important;
+  display: flex;
+  flex-direction: column;
   overflow: auto;
 }
 
