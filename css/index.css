@@ -74,6 +74,16 @@ body {
   color: #525156;
   font-size: 30px;
   margin-top: 4vh;
+  font-weight: 400;
+}
+
+.section01 div:nth-child(1) .name span {
+  /* color: #0067a3; */
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.section01 div:nth-child(1) .name span:last-child {
+  /* color: #ffc0cb; */
 }
 
 .spot_info {
@@ -213,8 +223,6 @@ body {
 .section04 .fp-tableCell {
   position: relative;
   height: 100% !important;
-  display: flex;
-  flex-direction: column;
   overflow: auto;
 }
 
