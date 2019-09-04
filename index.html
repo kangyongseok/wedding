@@ -74,7 +74,7 @@
       </div>
     </section>
     <section class="section section04">
-      <!-- <h2>오시는 길</h2> -->
+      <h2>오시는 길</h2>
       <div class="load_text">
         <!--
           * 카카오맵 - 약도서비스
@@ -89,11 +89,17 @@
 
         <!-- 3. 실행 스크립트 -->
         <script charset="UTF-8">
+          const mapTitle = document.querySelector('.section04 h2')
+         if (window.outerHeight >= 550) {
+            mapTitle.style.display = "block";
+         } else {
+          mapTitle.style.display = "none";
+         }
           new daum.roughmap.Lander({
             "timestamp" : "1567606202739",
             "key" : "uxf6",
-            "mapWidth" : "360",
-            "mapHeight" : "200"
+            "mapWidth" : "100%",
+            "mapHeight" : "250"
           }).render();
         </script>
       </div>
