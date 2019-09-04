@@ -252,7 +252,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Do Hyeon', sans-serif; 
-  margin-top: auto; 
+  margin-top: 5px; 
   margin-bottom: 30px;
 }
 
