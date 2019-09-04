@@ -76,6 +76,13 @@ body {
   margin-top: 4vh;
 }
 
+.spot_info {
+  font-family: 'Do Hyeon', sans-serif;
+  color: #525156;
+  font-size: 14px;
+  width: 100%;
+}
+
 .section01 div:nth-child(2) {
   width: 100%;
   height: 50vh;
