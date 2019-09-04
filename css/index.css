@@ -226,6 +226,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: auto;
+  flex-wrap: nowrap;
 }
 
 .section04 h2 {
@@ -252,6 +253,7 @@ body {
   justify-content: center;
   font-family: 'Do Hyeon', sans-serif; 
   margin-top: auto; 
+  margin-bottom: 30px;
 }
 
 .load_text * {
