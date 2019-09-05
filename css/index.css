@@ -263,8 +263,9 @@ body {
 .load_text {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: 'Do Hyeon', sans-serif; 
-  margin-top: auto;
+  height: calc(100% - 55px);
 }
 
 .load_text * {
