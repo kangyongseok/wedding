@@ -76,32 +76,26 @@
     <section class="section section04">
       <h2>오시는 길</h2>
       <div class="load_text">
-        <!--
-          * 카카오맵 - 약도서비스
-          * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
-          * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
-        -->
-        <!-- 1. 약도 노드 -->
-        <div id="daumRoughmapContainer1567694033816" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+       <!--
+	* 카카오맵 - 약도서비스
+	* 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+	* 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+-->
+<!-- 1. 약도 노드 -->
+<div id="daumRoughmapContainer1568095740943" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-        <!-- 2. 설치 스크립트 -->
-        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<!-- 2. 설치 스크립트 -->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-        <!-- 3. 실행 스크립트 -->
-        <script charset="UTF-8">
-          const mapTitle = document.querySelector('.section04 h2')
-         if (window.outerHeight >= 550) {
-            mapTitle.style.display = "block";
-         } else {
-          mapTitle.style.display = "none";
-         }
-          new daum.roughmap.Lander({
-            "timestamp" : "1567694033816",
-            "key" : "uxv3",
-            "mapWidth" : "100%",
-            "mapHeight" : "250"
-          }).render();
-        </script>
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1568095740943",
+		"key" : "vzaf",
+		"mapWidth" : "100%",
+		"mapHeight" : "240"
+	}).render();
+</script>
       </div>
     </section>
     <section class="section section05">
@@ -115,20 +109,6 @@
       </div>
     </section>
   </div>
-  <script>
-    
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        //options here
-        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-        autoScrolling:true,
-        scrollHorizontally: true,
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
-        navigation: true,
-        navigationPosition: 'right',
-      });
-    });
-  </script>
+
 </body>
 </html>

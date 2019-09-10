@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Questrial|Song+Myung&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
   box-sizing: border-box;
   line-height: 1;
   font-size: 100%;
-  font-family: 'Gaegu', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 
@@ -85,7 +85,7 @@ body {
 
 .section01 div:nth-child(1) .name span {
   /* color: #0067a3; */
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .section01 div:nth-child(1) .name span:last-child {
@@ -93,7 +93,7 @@ body {
 }
 
 .spot_info {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #525156;
   font-size: 14px;
   width: 100%;
@@ -128,7 +128,7 @@ body {
   font-size: 20px;
   letter-spacing: -1px;
   font-weight: 300;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #525156;
   margin-top: 1vw;
 }
@@ -154,7 +154,7 @@ body {
 
 .section02 h2, .section02 p {
   font-weight: 400;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   margin-top: 50px;
   line-height: 30px;
 }
@@ -166,7 +166,7 @@ body {
 }
 
 .section02 span {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: white;
   font-size: 20px;
 }
@@ -190,7 +190,7 @@ body {
   color: #517ce9;
   font-size: 15px;
   margin-top: 10px;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .section03 h2 {
@@ -200,14 +200,14 @@ body {
   color:#90c7cc;
   width: 100%;
   z-index: 100;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
 }
 
 .section03 h2 span {
   font-size: 15px;
   color: #525156;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .slide_area {
@@ -239,17 +239,15 @@ body {
 }
 
 .section04 {
-  position: relative;
+  padding: 10px;
+  width: 100%;
+  min-height: 0;
 }
 
-.section04 .fp-tableCell {
-  position: relative;
-  height: 100% !important;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
-  flex-wrap: nowrap;
+.root_daum_roughmap {
+  width: 100% !important;
 }
+
 
 .section04 h2 {
   text-align: center;
@@ -258,26 +256,19 @@ body {
   color:#90c7cc;
   width: 100%;
   z-index: 100;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   display: none;
 }
 
-.fp-slidesNav ul li a.active span {
-  background: #90c7cc;
-}
-
-.fp-slidesNav ul li a span {
-  background: #cccccc;
-}
 
 .load_text {
-  font-family: 'Do Hyeon', sans-serif; 
+  font-family: 'Noto Sans KR', sans-serif; 
   height: calc(100% - 55px);
 }
 
 .load_text * {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: normal;
   color: #525156;
 }
